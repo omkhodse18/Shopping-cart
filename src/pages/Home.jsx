@@ -49,7 +49,7 @@ function Home() {
           ) 
           
       }
-       This is Home page
+       
     </div>
   )
 }

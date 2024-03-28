@@ -1,4 +1,6 @@
 import React from 'react'
+import {useSelector} from "react-redux"
+
 
 function Product({post}) {
   return (
@@ -21,7 +23,7 @@ function Product({post}) {
 
       <button>
         {
-          
+
         }
       </button>
     </div>
