@@ -3,8 +3,6 @@ import {useSelector} from 'react-redux'
 import { NavLink } from 'react-router-dom';
 import CartItem from '../components/CartItem'
 
-
-
 function Cart() {
 
   const {cart} = useSelector((state) => state);
@@ -51,7 +49,7 @@ function Cart() {
         (
             <div>
               <h2> Your cart is empty! </h2>
-              <NavLink to="\">
+              <NavLink to="/">
                 <button>
                   Shop Now
                 </button>

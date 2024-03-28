@@ -8,7 +8,7 @@ function Navbar() {
     <div>
       <div className='flex flex-row justify-between'>
         <NavLink to="/">
-          <img src=''/>
+          <h1>SHOPZZY</h1>
         </NavLink>
 
         <div>
